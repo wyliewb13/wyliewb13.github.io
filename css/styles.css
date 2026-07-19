@@ -1,0 +1,17 @@
+/* general rules */
+
+body {font-family: Georgia, Times, serif;}
+h1 {font-size: 250%;}
+h1, h2, h3 {font-weight: bold;}
+h1, h2, h3 {font-style: oblique;}
+ul {text-decoration: underline;}
+ol {text-decoration: underline;}
+a:link {text-decoration: underline;}
+a:visited {text-decoration: line-through;}
+p {line-height: 1.5em;}
+p {text-align: left;}
+
+/* id and class rules */
+
+#me {color: #7132a8;}
+.info {background-color: #dcfc4c;}
