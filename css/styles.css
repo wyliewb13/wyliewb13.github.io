@@ -13,20 +13,20 @@ p {text-align: left;}
 
 /* id and class rules */
 
-#me {color: #7132a8;}
-.info {background-color: #dcfc4c;}
+p#me {color: #7132a8;}
+li.info {background-color: #dcfc4c;}
 
 /* div practice */
 
 div.box {border: thin solid #f383f7;}
-#page {height: 2000px; width: 1000px; overflow: scroll; 
+div#page {height: 2000px; width: 1000px; overflow: scroll; 
        border: thin solid #d635f2;
        padding: 5px 5px 5px 5px;}
-.media {border: thin solid #34ebeb;}
-.forms {border: thin solid #6b6be8;}
-.nav {display: inline; list-style-type: none;}
-.list {list-style-type: square;}
-#orderedindex {list-style-type: decimal;}
+div.media {border: thin solid #34ebeb;}
+div.forms {border: thin solid #6b6be8;}
+ul.nav {display: inline; list-style-type: none;}
+ul.list {list-style-type: square;}
+ol.list {list-style-type: decimal;}
 
 /* table practice */
 
@@ -34,7 +34,7 @@ table {width: 500px; margin: 10px auto 10px auto;
        background-color: #b6b8b8; color: #111115;
        border: thin solid #111111;}
 th, td {padding: 10px 10px 10px 10px;
-        border: thin solid #111113;}
+        border: thin solid #111113;}f
 th {font-weight: bold;}
 
 /* forms practice */
