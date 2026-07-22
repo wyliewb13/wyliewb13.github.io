@@ -18,7 +18,7 @@ li.info {background-color: #dcfc4c;}
 
 /* div practice */
 
-div.box {border: thin solid #f383f7;}
+div {border: thin solid #f383f7;}
 div#page {height: 2000px; width: 1000px; overflow: scroll; 
        border: thin solid #d635f2;
        padding: 5px 5px 5px 5px;}
