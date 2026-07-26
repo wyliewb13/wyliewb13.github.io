@@ -24,7 +24,7 @@ div#page {height: 2000px; width: 1000px; overflow: scroll;
        padding: 5px 5px 5px 5px;}
 div.media {border: thin solid #34ebeb;}
 div.forms {border: thin solid #6b6be8;}
-ul.nav {display: inline; list-style-type: none;}
+ul.nav {display: inline; padding: 10px;}
 ul.list {list-style-type: square;}
 ol.list {list-style-type: decimal;}
 
@@ -49,3 +49,17 @@ input#submit:hover {background-color: #bd202d;}
 legend {font-weight: bold;}
 fieldset {padding: 15px 15px 15px 15px;
           background-color: #47bd20;}
+
+/* layouts practice */
+
+body#index {width: 1000px; height: 2000px; margin: 0 auto;}
+div#icolumn1, div#icolumn2 {width: 450px; margin: 10px; float: left;}
+body#forms {width: 90%; margin: 0 auto;}
+div#fcolumn1, div#fcolumn2 {width: 48%; float: left;}
+p.copyright {position: absolute; top: 1000px;}
+
+/* image css practice */
+
+img.iimage {width: 250px; height: 250px; 
+            display: block; margin: 0 auto;}
+body#index {background-image: url("../images/fire.webp")}
