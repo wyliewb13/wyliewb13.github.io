@@ -12,32 +12,41 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link href="css/styles.css" type="text/css" rel="stylesheet" />
  </head>
+
+ <!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/
+trunk/html5.js"></script>
+<![endif]-->
  
  <body id="index">
+ <div id="page">
+  
+  <header>
+   <h1> Welcome, I'm Wylie! </h1> 
+    <p id="me"> Welcome to my MLIS website, I'm Wylie Warren-Boulton (she/her)! </p>
+  </header>
 
-  <h1> Welcome, I'm Wylie! </h1> 
-   <p id="me"> Welcome to my MLIS website, I'm Wylie Warren-Boulton (she/her)! </p>
-   <p> <img src="images/trans.png" alt="trans flag" width="600" height="450" class="iimage"/> </p>
-   <div class="nav">
+   <nav>
    <ul class="nav">
     <li> <a href="#work"> My Work! </a> </li>
     <li> <a href="#contact"> Contact Me </a> </li>
    </ul>
-   </div>
-
- <div id="page">
-  <div class="list" id="icolumn1">
+   </nav>
+   <aside> <p> <img src="images/trans.png" alt="trans flag" width="600" height="450" class="iimage"/> </p> </aside>
+  
+  <div id="content">
+  <article id="icolumn1">
   <h2> Why am I in this class? </h2>
    <ol  class="list">
     <li class="info"> I use the internet a lot, so knowing how pages actually work would be cool. </li>
     <li class="info"> I'd like to be able to help make a website or spruce one up for a library I work at one day. </li>
     <li class="info"> I do need to do at least one technology adjacent elective for my MLIS </li>
    </ol>
-  </div>
+  </article>
 
-  <div id="icolumn2" class="list">
+  <article id="icolumn2">
   <h2 id="work"> My work! </h2>
-   <p> Here's some of the stuff I've done! </p>
+   <section> <p> Here's some of the stuff I've done! </p> </section>
    <ul class="list">
     <li> Links (Favorite sites!)
      <ul>
@@ -49,14 +58,14 @@
     <li> <a href="media.html"> Media </a> </li>
     <li> <a href="forms.html"> Forms </a> </li>
    </ul>
+   </article>
    </div>
-  
-  <div class="contact">
+
+  <footer>
   <h3 id="contact"> Contact </h3>
    <p> <a href="mailto:wwarrenboulton@my.dom.edu"> Email </a> </p>
-   <br />
    <p> &copy; 2026 </p>  
-  </div>
+  </footer>
  </div>
 
  </body>
